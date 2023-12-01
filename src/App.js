@@ -15,20 +15,16 @@ function App() {
   };
   return (
     <div className='h-screen w-full bg-gradient-to-r from-[#0075ff] to-[#00ff75]'>
-      {/* <div className='bg-white h-20 w-full flex justify-center items-center !shadow !shadow-gray-500'>
-        <img src={icon} className='h-10' />
-      </div> */}
-      {/* <div className='h-[calc(100vh-5rem)] flex justify-center items-center flex-col'> */}
-      <div className='h-full flex justify-center items-center flex-col'>
+      <div className='h-full flex justify-center items-center flex-col px-10'>
         <img src={togoicon} className='h-32 mb-4' />
-        <p className='text-6xl text-white font-mono font-semibold'>
+        <p className='text-6xl text-center text-white font-mono font-semibold'>
           Bem Vindo ao Gogo!
         </p>
-        <p className='text-xl text-white font-mono font-semibold mt-2'>
+        <p className='text-xl text-center text-white font-mono font-semibold mt-2'>
           Que tal ter uma experiencia nova e conhecer novos lugares?
         </p>
         <hr className='w-1/4 bg-white my-8' />
-        <p className='text-xl text-white font-mono font-semibold'>
+        <p className='text-xl text-center text-white font-mono font-semibold'>
           Faça o download e viva novas historias
         </p>
         <button
