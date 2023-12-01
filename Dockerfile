@@ -11,7 +11,7 @@ RUN echo $CADDY_VERSION
 
 
 # Instalando o Caddy
-RUN curl -fsSLo caddy.tar.gz "https://github.com/caddyserver/caddy/releases/download/v$CADDY_VERSION/caddy_$CADDY_VERSION_linux_amd64.tar.gz" \
+RUN curl -fsSLo caddy.tar.gz "https://github.com/caddyserver/caddy/releases/download/v2.7.5/caddy_2.7.5_linux_amd64.tar.gz" \
     && tar -zxvf caddy.tar.gz caddy \
     && chmod +x caddy
 
